@@ -30,7 +30,7 @@ const Profile = () => {
   const followOrUnfollow = async () => {
     try {
       const res = await axios.post(
-        `https://pranav-social-media.onrender.com/api/v1/user/followorunfollow/${userProfile._id}`,
+        `https://priyansh-social-media.onrender.com/api/v1/user/followorunfollow/${userProfile._id}`,
         {},
         { withCredentials: true }
       );

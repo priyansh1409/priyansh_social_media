@@ -35,7 +35,7 @@ import { setPosts } from '@/redux/postSlice'
       if (imagePreview) formData.append("image", file);
       try {
         setLoading(true);
-        const res = await axios.post('https://pranav-social-media.onrender.com/api/v1/post/addpost', formData, {
+        const res = await axios.post('https://priyansh-social-media.onrender.com/api/v1/post/addpost', formData, {
           headers: {
             'Content-Type': 'multipart/form-data'
           },

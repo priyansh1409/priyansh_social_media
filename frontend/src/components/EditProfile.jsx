@@ -42,7 +42,7 @@ const EditProfile = () => {
         }
         try {
             setLoading(true);
-            const res = await axios.post('https://pranav-social-media.onrender.com/api/v1/user/profile/edit', formData,{
+            const res = await axios.post('https://priyansh-social-media.onrender.com/api/v1/user/profile/edit', formData,{
                 headers:{
                     'Content-Type':'multipart/form-data'
                 },

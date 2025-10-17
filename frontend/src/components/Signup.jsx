@@ -28,7 +28,7 @@ export const Signup = () => {
         console.log(input);
         try {
             setLoading(true);
-            const res = await axios.post('https://pranav-social-media.onrender.com/api/v1/user/register', input, {
+            const res = await axios.post('https://priyansh-social-media.onrender.com/api/v1/user/register', input, {
                 headers: {
                     'Content-Type': 'application/json'
                 },
